@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rick Personal</title>
+    <link rel="icon" href="img/dumbbell.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/adm.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1><img src="img/logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Planos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="login.html">Adm<br></a></li><br>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <br><br>
+            <h2>Meus alunos</h2>
+            <label for="filtrar-tabela">Pesquisar:</label>
+            <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome de um aluno para filtrar">
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Peso</th>
+                        <th>Altura</th>
+                        <th>Ombro</th>
+                        <th>Peito</th>
+                        <th>Cintura</th>
+                        <th>Quadril</th>
+                        <th>Braço</th>
+                        <th>Perna</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-pacientes">
+                    <tr class="paciente">
+                        <td class="info-nome">Rick</td>
+                        <td class="info-peso">790000</td>
+                        <td class="info-altura">100000.75</td>
+                        <td class="info-ombro">17000</td>
+                        <td class="info-peito">1700000</td>
+                        <td class="info-cintura">170000</td>
+                        <td class="info-quadril">170000</td>
+                        <td class="info-braco">17000</td>
+                        <td class="info-perna">1700000</td>
+                    </tr>
+                    <tr class="paciente">
+                        <td class="info-nome">Paty</td>
+                        <td class="info-peso">79</td>
+                        <td class="info-altura">1.75</td>
+                        <td class="info-ombro">170</td>
+                        <td class="info-peito">170</td>
+                        <td class="info-cintura">170</td>
+                        <td class="info-quadril">170</td>
+                        <td class="info-braco">170</td>
+                        <td class="info-perna">170</td>
+                    </tr>
+                    <tr class="paciente">
+                        <td class="info-nome">Nildo</td>
+                        <td class="info-peso">79</td>
+                        <td class="info-altura">10.75</td>
+                        <td class="info-ombro">17</td>
+                        <td class="info-peito">170</td>
+                        <td class="info-cintura">17</td>
+                        <td class="info-quadril">17</td>
+                        <td class="info-braco">17</td>
+                        <td class="info-perna">17</td>
+                    </tr>
+                    <tr class="paciente">
+                        <td class="info-nome">Diego</td>
+                        <td class="info-peso">79</td>
+                        <td class="info-altura">1.75</td>
+                        <td class="info-ombro">17</td>
+                        <td class="info-peito">170</td>
+                        <td class="info-cintura">17</td>
+                        <td class="info-quadril">17</td>
+                        <td class="info-braco">17</td>
+                        <td class="info-perna">17</td>
+                    </tr>
+                    <tr class="paciente">
+                        <td class="info-nome">Caio</td>
+                        <td class="info-peso">79</td>
+                        <td class="info-altura">1.75</td>
+                        <td class="info-ombro">17</td>
+                        <td class="info-peito">10</td>
+                        <td class="info-cintura">107</td>
+                        <td class="info-quadril">170</td>
+                        <td class="info-braco">107</td>
+                        <td class="info-perna">170</td>
+                    </tr>
+                    <tr class="paciente">
+                        <td class="info-nome">Cida</td>
+                        <td class="info-peso">19</td>
+                        <td class="info-altura">1</td>
+                        <td class="info-ombro">18</td>
+                        <td class="info-peito">180</td>
+                        <td class="info-cintura">18</td>
+                        <td class="info-quadril">18</td>
+                        <td class="info-braco">18</td>
+                        <td class="info-perna">18</td>
+                    </tr>
+                    <tr class="paciente">
+                        <td class="info-nome">Ramon</td>
+                        <td class="info-peso">59</td>
+                        <td class="info-altura">1.5</td>
+                        <td class="info-ombro">27</td>
+                        <td class="info-peito">270</td>
+                        <td class="info-cintura">27</td>
+                        <td class="info-quadril">27</td>
+                        <td class="info-braco">27</td>
+                        <td class="info-perna">27</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3><br><span>Para remover algum aluno da lista click duas vezes sobre ele<br></span><br></h4>
+        </section>
+    </main>
+
+    <section class="container">
+
+        <h2 id="titulo-form"><br> Adicionar novo aluno</h2>
+
+        <ul id="mensagens-erro">
+        </ul>
+
+        <form id="form-adiciona">
+            <div class="grupo">
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="digite o nome" class="campo">
+            </div>
+            <br>
+            <div class="grupo">
+                <label for="peso">Peso:</label>
+                <input id="peso" name="peso" type="text" placeholder="digite o peso em quilos" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="altura">Altura:</label>
+                <input id="altura" name="altura" type="text" placeholder="digite a altura em metros" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="ombro">Ombro:</label>
+                <input id="ombro" type="text" placeholder="digite a medida do ombro em centimetros" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="peito">Peito:</label>
+                <input id="peito" type="text" placeholder="digite a medida do peito em centimetros" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="cintura">Cintura:</label>
+                <input id="cintura" type="text" placeholder="digite a medida da cintura em centimetros" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="quadril">Quadril:</label>
+                <input id="quadril" type="text" placeholder="digite a medida do quadril em centimetros" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="braco">Braço:</label>
+                <input id="braco" type="text" placeholder="digite a medida do braco em centimetros" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="perna">Perna:</label>
+                <input id="perna" type="text" placeholder="digite a medida da perna em centimetros" class="campo">
+            </div>
+
+            <button id="adicionar-paciente" class="botao bto-principal">Adicionar novo aluno</button>
+        </form>
+    </section>
+
+    <footer>
+        <img src="img/LOGORICK_Branco.png">
+        <p class="copyright">&copy; Copyright Rick Personal - 2022</p>
+    </footer>
+
+    <script src="js/valida.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/remover.js"></script>
+    <script src="js/filtra.js"></script>
+    <script src="js/bd.js"></script>
+
+</body>
+
+</html>

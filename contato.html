@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contato - Rick Personal</title>
+    <link rel="icon" href="img/dumbbell.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="img/logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Planos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="login.html">Adm<br></a></li><br>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+
+            <div>
+                <p>Como prefere que eu entre em contato?</p>
+
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">Email</label>
+
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="whatsapp" checked>WhatsApp</label>
+
+
+            </div>
+
+            <p>Que horário gostaria de treinar?</p>
+            <select class="input-padrao">
+                <option value="">18:15</option>
+                <option value="">18:30</option>
+                <option value="">19:00</option>
+                <option value="">20:15</option>
+                <option value="">20:30</option>
+                <option value="">21:00</option>
+            </select>
+
+            <input type="submit" class="enviar">
+        </form>
+    </main>
+
+    <footer>
+        <img src="img/LOGORICK_Branco.png">
+        <p class="copyright">&copy; Copyright Rick Personal - 2022</p>
+    </footer>
+</body>
+
+</html>

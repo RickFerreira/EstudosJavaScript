@@ -1,0 +1,94 @@
+header {
+    background: linear-gradient(90deg, #000000, #ffffff);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d80a0a;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #3ad80a;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    background: #1f1f1f;
+    margin: 20px 0 0;
+}
+
+.copyright {
+    color: #BBBBBB;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar {
+    width: 50%;
+    padding: 15px 0;
+    background: rgb(2, 172, 2);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: green;
+    transform: scale(1.1);
+}

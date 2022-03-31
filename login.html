@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rick Personal</title>
+    <link rel="icon" href="img/dumbbell.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img class=logo src="img/logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home<br></a></li><br>
+                    <li><a href="produtos.html">Planos<br></a></li><br>
+                    <li><a href="contato.html">Contato<br></a></li><br>
+                    <li><a href="login.html">Adm<br></a></li><br>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <hr>
+    </div>
+
+    <div class="login">
+        <h3><br>LOGIN<br><br></h3>
+
+        <div id="msgError"></div>
+
+        <div class="grupo ">
+            <label id="usuarioLabel" for="usuario ">Usuário:</label>
+            <input id="usuario" name="usuario " type="text" placeholder="Digite o nome de usuário " class="campo ">
+        </div>
+        <br>
+        <div class="grupo ">
+            <label id="senhaLabel" for="senha ">Senha:</label>
+            <input id="senha" name="senha " type="password" placeholder="Digite a senha " class="campo ">
+        </div>
+        <div>
+            <button onclick='entrar()' class="botaoEntrar">Entrar</button>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <p>Não tem uma conta?<br>
+            <a href="cadastro.html"> Cadastre-se </a>
+        </p>
+    </div>
+
+
+    <footer>
+        <img src="img/LOGORICK_Branco.png " class="imagemcopy ">
+        <p class="copyright ">&copy; Copyright Rick Personal - 2022</p>
+    </footer>
+
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
