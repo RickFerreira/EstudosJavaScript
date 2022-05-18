@@ -22,4 +22,8 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="imagem" width="45"> &nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="imagem" width="45"> &nbsp;
 
+### 👻 Results
+
+<a href="https://rickferreira.github.io/EstudosJavaScript/">-----------------Vizualizar como ficou o site-----------------</a>
+</div>
 </div>
