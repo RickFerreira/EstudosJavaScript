@@ -25,5 +25,5 @@
 ### 👻 Results
 
 <a href="https://rickferreira.github.io/EstudosJavaScript/">-----------------Vizualizar como ficou o site-----------------</a>
-</div>
+
 </div>
