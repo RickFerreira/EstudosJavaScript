@@ -2,7 +2,7 @@
   
 # EstudosJavaScript
   
-<h4>Baseado nos cursos de javascrpt da alura, esse projeto é uma criação minha para aplicar os conhecimentos adquiridos nesses cursos, criando assim um website para personal trainer, com parte de cliente e administração, com várias páginas, incluindo validação de formulário e tela de login.</h4>
+<h4>Baseado nos cursos de javascrpt da alura, esse projeto é uma criação minha para aplicar os conhecimentos adquiridos nesses cursos, criando assim um website para personal trainer, com parte de cliente e administrador, com várias páginas, incluindo validação de formulário e tela de login.</h4>
   
 <p align="center"><img  src="https://marquesfernandes.com/wp-content/uploads/2020/01/1555172.jpg" width="60%" alt="imagem" >
   
